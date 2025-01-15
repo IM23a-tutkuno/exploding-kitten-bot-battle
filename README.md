@@ -14,11 +14,13 @@ This project is a simplified version of the popular card game "Exploding Kittens
 
 ## Code Overview
 
+
 ### Bots
 
 - Each bot has its own `hand` field, which is a list of cards that the bot has in its hand.
 - Each bot gets the current `GameState` in each of its methods, so it can make decisions based on the current state of the game.
 - The bot gets a name assigned. The name is just the file name minus the `.py` extension.
+- The bots can be coded in many different ways one example which utilises AI and creative problem solving is [OpiumBot](https://github.com/zwazel/exploding-kitten-bot-battle/blob/5eaeb9c7495d0c2fd97c0e837d569b768c2b4ade/special_bots/OpiumBot.py) by [IM23a-tutkuno](https://github.com/IM23a-tutkuno)
 
 ### GameState
 
